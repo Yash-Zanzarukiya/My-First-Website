@@ -21,7 +21,7 @@ hr{
 }
 
 .h-secondary{
-    margin: 20px 0px;
+    margin: 50px 0px;
     font-weight: bold;
     font-size: 2.5rem;
     color: green;
@@ -90,6 +90,7 @@ hr{
     justify-content: center;
     text-align: center;
     color: #000;
+    margin: 20px 0px;
 }
 
 #Home::before{
@@ -136,6 +137,7 @@ hr{
 
 #partners{
     display: flex;
+    margin: 50px 0px;
 }
 
 #partners p{
@@ -170,7 +172,7 @@ hr{
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: rgba(253, 239, 220, 0.295);
+    background-color: rgba(253, 250, 246, 0.368);
     /* background: url(/Web1/Img/building.jpg) no-repeat center center; */
 }
 
@@ -181,6 +183,8 @@ hr{
     width: 100%;
     overflow:auto;
     padding: 10px;
+    margin: 50px 0px;
+
 }
 
 .projects img{
@@ -228,6 +232,8 @@ hr{
     width: 100%;
     justify-content: center;
     align-items: center;
+    margin: 40px 0px;
+
 }
 
 #sector p{
@@ -255,4 +261,9 @@ footer p{
     text-align: center;
     background-color: antiquewhite;
     font-weight: bold;
+    padding: 50px 0px;
+}
+footer a{
+    text-decoration: none;
+    color: #681c1c;
 }
